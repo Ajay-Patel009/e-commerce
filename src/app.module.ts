@@ -7,7 +7,7 @@ import { UserModule } from './user/user.module';
 
 @Module({
   // imports: [
-  //   MongooseModule.forRoot('mongodb://localhost/store'), // 1.2 Setup the database
+  //   MongooseModule.forRoot('mongodb://localhost/store'),
   //   ProductModule, UserModule, // 2.2 Add the product module
   // ],
   controllers: [AppController],
